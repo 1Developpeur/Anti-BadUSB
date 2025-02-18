@@ -40,7 +40,9 @@ pip install -r requirements.txt
 
 ## 🚀 Installation
 
-1. Clone the repository:
+The latest stable version of **Anti-BadUSB** is available in the [Releases](https://github.com/1Developpeur/Anti-BadUSB/releases) section. We recommend using the stable version for a reliable experience.
+
+1. Clone the repository (or download the latest release):
 ```bash
 git clone https://github.com/1Developpeur/Anti-BadUSB.git
 cd Anti-BadUSB
@@ -51,13 +53,21 @@ cd Anti-BadUSB
 pip install -r requirements.txt
 ```
 
-3. Run the script:
+3. Configure (optional)
+
+*check the **⚙️ Configuration** section below*
+
+4. Run the script:
+
+To start the Anti-BadUSB tool, simply run:
 ```bash
 python3 main.py
 ```
+or
 ```bash
 python main.py
 ```
+The script will begin monitoring for any potential BadUSB attacks in real-time.
 
 ---
 
@@ -105,6 +115,8 @@ When the detector is running, you'll see logs like this:
 Check out this video below to see the **Anti-BadUSB** tool in action!
 
 ![poc-gif](https://github.com/user-attachments/assets/77097e04-1bf9-47e2-bd8e-16ce83ad5971)
+
+---
 
 ## ⚠️ Notes
 
